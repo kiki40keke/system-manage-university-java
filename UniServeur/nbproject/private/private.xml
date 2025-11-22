@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Kensky/Documents/Intense%20gestion%20universite/UniServeur/src/uniserveur/UniServeur.java</file>
+            <file>file:/C:/Users/Kensky/Documents/SystemUniversity/UniServeur/src/com/uni/intense/application/ServicesCours.java</file>
+            <file>file:/C:/Users/Kensky/Documents/SystemUniversity/UniServeur/src/com/uni/intense/application/EmployerDal.java</file>
+            <file>file:/C:/Users/Kensky/Documents/SystemUniversity/UniServeur/src/com/uni/intense/application/EvaluationsNormalDal.java</file>
+            <file>file:/C:/Users/Kensky/Documents/SystemUniversity/UniServeur/src/com/uni/intense/application/EtudiantsDal.java</file>
         </group>
     </open-files>
 </project-private>

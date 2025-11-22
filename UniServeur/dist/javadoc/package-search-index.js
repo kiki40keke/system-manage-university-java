@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.uni.intense.application"},{"l":"com.uni.intense.controleur"},{"l":"com.uni.intense.domaine"},{"l":"com.uni.intense.presentation"},{"l":"uniserveur"}];updateSearchResults();

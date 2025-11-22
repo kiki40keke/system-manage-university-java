@@ -17,7 +17,7 @@ import java.util.ArrayList;
  *
  * @author kelly
  */
-public class EvaluationsNormalDal {
+public class EvaluationsNormalDal extends App{
     
     public String EnregistrerEvaluation(EvaluationsNormal Eva){
      String mes="";
@@ -27,9 +27,8 @@ public class EvaluationsNormalDal {
        int verifier=0;
        try{
            // Etablir la connection
-           Connection conect=DriverManager.getConnection("jdbc:mysql://localhost/GestionUniversite","root","");
-           // creation d'un statement
-           Statement st=conect.createStatement();
+          Connection con = getConnection();
+          Statement st = con.createStatement();
                //Utiliser une methode du Statement pour executer la requete
                verifier=st.executeUpdate(req);
                if(verifier!=0){
@@ -38,7 +37,7 @@ public class EvaluationsNormalDal {
                    System.out.println(mes);
                }
                
-               conect.close(); st.close();
+               con.close(); st.close();
        }
        catch (SQLException e){
            mes="enregistrement echouer /n"+e.getMessage();
