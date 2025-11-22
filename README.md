@@ -29,7 +29,7 @@ A C# version also exists, demonstrating cross-platform and design versatility; i
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/kiki40keke/system-manage-university.git
+   git clone https://github.com/kiki40keke/system-manage-university-java.git
    ```
 
 2. **Install dependencies and build the project** (see instructions in the project folders).
